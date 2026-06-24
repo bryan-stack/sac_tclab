@@ -1,0 +1,5 @@
+Controlador,ISE,IAE,ITAE,Overshoot Máx (°C),Energía Total (%),Variación Control (TV)
+PI Clásico (Estrés),48004.2,3435.25,1118524.4,20.9,11172.18,381.99
+SAC Puro (Estrés),30124.38,3454.48,1004187.14,13.94,10201.62,590.23
+PI Clásico (Constante),1568.48,375.92,20812.87,0.85,8068.19,231.61
+SAC Puro (Constante),1943.15,392.42,22128.16,0.91,8084.67,613.64
