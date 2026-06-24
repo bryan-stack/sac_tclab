@@ -47,21 +47,3 @@ Python 3.12 con numpy, scipy, pandas, matplotlib, gymnasium, stable-baselines3
 y torch. La librería `tclab` solo hace falta para correr sobre el hardware real;
 todas las pruebas aceptan la opción `--sim` para validarse contra el modelo ODE.
 
-## Reproducir
-
-Compilar el artículo:
-
-    cd Manuscrito
-    pdflatex articulo_mdpi_sac_tclab.tex   # ejecutar 3 veces (referencias)
-
-Validar una prueba en simulación (sin hardware):
-
-    cd Codigo/trainv2
-    python stress_suite_v2.py --mode sac --reps 1 --sim --model models/sac_tclab_v4_best/best_model
-
-Regenerar las figuras del artículo:
-
-    cd Codigo/trainv2
-    python generar_figuras_4ctrl.py
-    python generar_figura_setpoint_4ctrl.py
-    python generar_figura_convergencia.py
