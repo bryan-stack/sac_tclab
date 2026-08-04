@@ -7,11 +7,6 @@ contra un PI clásico, un NMPC puro y una arquitectura híbrida residual NMPC-SA
 
 ## Contenido
 
-- **Manuscrito/**
-  - `articulo_mdpi_sac_tclab.pdf` — artículo final.
-  - `articulo_mdpi_sac_tclab.tex` — fuente LaTeX (compila con pdfLaTeX).
-  - `Definitions/` — plantilla MDPI, necesaria para compilar.
-  - `figuras/` — todas las figuras en alta resolución (PNG y PDF, ≥400 dpi).
 - **Codigo/**
   - `trainv2/` — entorno y agente SAC puro (observación de 46 dimensiones),
     entrenamiento, pruebas, métricas y generación de figuras.
